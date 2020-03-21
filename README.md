@@ -4,13 +4,9 @@
 
 ## Usage
 
-Upon starting up, the initial value of **00:00:00** is displayed on the LCD.
-Seconds are configured using the joystick's up or down buttons.
-Moving the joystick left or right will switch to configuring minutes or seconds respectively.  
-Pressing the middle button triggers the countdown. When it reaches 0, a brief message
-is displayed, after which the state is restored back to previously set value, waiting for further
-user input.   
-The timer uses only minutes and seconds, but it can be trivially extended to work with hours.
+1. Move the joystick left or right to select minutes/seconds respectively
+2. Set the desired value by moving the joystick up or down
+3. Press the middle button to trigger the countdown
 
 ## Requirements
 
